@@ -1,0 +1,14 @@
+class Student{  
+ int roll;  
+ String name;  
+float marks;
+}  
+class TestStudent2{  
+ public static void main(String args[]){  
+  Student s1=new Student();  
+  s1.roll=101;  
+  s1.name="Chethan"; 
+ s1.marks=76;
+  System.out.println(s1.roll+" "+s1.name+" "+s1.marks);
+ }  
+}  
